@@ -11,30 +11,43 @@ const DATA = [
  {
  id: '1',
  title: 'Mercurio',
+ src:require('./src/imgs/planetamercurio.jpeg'),
  },
  {
  id: '2',
  title: 'Venus',
+ src:require('./src/imgs/venus.jpeg'),
+
  },
  {
  id: '3',
  title: 'La Tierra',
+ src:require('./src/imgs/tierra.jpeg'),
+
  },
  {
     id: '4',
     title: 'Estacion Espacial',
+    src:require('./src/imgs/estacion.jpeg'),
+
 },
 {
     id: '5',
     title: 'Luna',
+    src:require('./src/imgs/luna.jpeg'),
+
 },
 {
     id: '6',
     title: 'Marte',
+    src:require('./src/imgs/marte.jpeg'),
+
 },
 {
     id: '7',
     title: 'Ceres',
+    src:require('./src/imgs/ceres.webp'),
+
 }
  ];
  const Item = ({ title }) => (
@@ -74,4 +87,4 @@ const DATA = [
  fontSize: 32,
  },
  });
-AppRegistry.registerComponent("cars", () => App);
+AppRegistry.registerComponent("astronomia", () => App);
