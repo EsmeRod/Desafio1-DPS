@@ -11,41 +11,48 @@ const DATA = [
  {
  id: '1',
  title: 'Mercurio',
+ description: 'Planeta mas cercano al Sol',
  src:require('./src/imgs/planetamercurio.jpeg'),
  },
  {
  id: '2',
  title: 'Venus',
+ description: 'segundo planeta mas cercano al Sol',
  src:require('./src/imgs/venus.jpeg'),
 
  },
  {
  id: '3',
  title: 'La Tierra',
+ description: 'tercer planeta mas cercano al Sol',
  src:require('./src/imgs/tierra.jpeg'),
 
  },
  {
     id: '4',
     title: 'Estacion Espacial',
+    description: 'Estacion espacial situada en la orbita terrestre baja',
     src:require('./src/imgs/estacion.jpeg'),
 
 },
 {
     id: '5',
     title: 'Luna',
+    description: 'Unico satelite natural de la Tierra',
     src:require('./src/imgs/luna.jpeg'),
 
 },
 {
     id: '6',
     title: 'Marte',
+    description: 'cuarto planeta mas cercano al Sol',
     src:require('./src/imgs/marte.jpeg'),
 
 },
 {
     id: '7',
     title: 'Ceres',
+    description: 'Planeta enano',
     src:require('./src/imgs/ceres.webp'),
 
 }
